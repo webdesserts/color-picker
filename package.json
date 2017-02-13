@@ -1,0 +1,31 @@
+{
+  "name": "color-picker",
+  "version": "1.0.0",
+  "description": "pick colors with scientific precision!",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael C. Mullins",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "del": "^1.2.1",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-rollup": "^1.0.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulplog": "0.0.0",
+    "lodash": "^3.10.1"
+  },
+  "dependencies": {
+    "alchemist-common": "^2.0.2",
+    "alchemist-js": "^2.0.0",
+    "jquery": "^2.1.4",
+    "react": "^0.13.3",
+    "stateless": "^1.0.0"
+  }
+}
